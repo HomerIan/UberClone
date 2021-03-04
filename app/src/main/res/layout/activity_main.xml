@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        tools:context=".MainActivity"
+        android:onClick="rootTappedLayout">
+
+        <EditText
+            android:id="@+id/edtUsername"
+            android:hint="@string/please_enter_your_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:autofillHints="no"/>
+
+        <EditText
+            android:id="@+id/edtPassword"
+            android:hint="@string/please_enter_your_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:autofillHints="no"/>
+
+        <RadioGroup
+            android:id="@+id/radioBtnGrp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:visibility="visible">
+
+            <RadioButton
+                android:id="@+id/rdbPassenger"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/passenger"
+                android:textSize="18sp"/>
+
+            <RadioButton
+                android:id="@+id/rdbDriver"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/driver"
+                android:textSize="18sp"/>
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnSignUpAndLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sign_up"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/don_t_want_to_sign_up_or_login"
+            android:layout_gravity="center_horizontal"/>
+
+        <EditText
+            android:id="@+id/edtGuest"
+            android:hint="@string/are_you_a_driver_or_a_passenger"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:autofillHints="no"/>
+
+        <Button
+            android:id="@+id/btnOneTimeLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/one_time_login"
+            android:layout_gravity="center_horizontal"/>
+
+    </LinearLayout>
+
+</layout>

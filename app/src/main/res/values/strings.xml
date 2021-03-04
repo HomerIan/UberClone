@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">UberClone</string>
+    <string name="please_enter_your_username">Please enter your username...</string>
+    <string name="please_enter_your_password">Please enter your password...</string>
+    <string name="passenger">Passenger</string>
+    <string name="driver">Driver</string>
+    <string name="don_t_want_to_sign_up_or_login">Don\'t want to sign up or login?</string>
+    <string name="are_you_a_driver_or_a_passenger">Are you a Driver or a Passenger?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="one_time_login">One Time Login</string>
+
+    <string name="back4app_server_url">https://parseapi.back4app.com/</string>
+
+    <!-- Change the following strings as required -->
+    <string name="back4app_app_id">9J945B7nareozp3YzOwvkTuR6cb3AYtdbRhDEYLc</string>
+    <string name="back4app_client_key">hYDDRaFunACnHI13LTqYu5txj4ATiJFvPbt2E8nD</string>
+    <string name="title_activity_passenger">Map</string>
+    <string name="request_a_car">Request a car</string>
+    <string name="log_in">Log in</string>
+    <string name="log_out">log out</string>
+    <string name="logout_txt_btn">Logout</string>
+    <string name="passenger_request_here">Passenger Request here</string>
+    <string name="get_nearby_request">Get nearby request</string>
+    <string name="title_activity_view_location_map">Map</string>
+    <string name="accept_passenger_ride_request">Accept Passenger Ride Request</string>
+    <string name="beep">BEEP!</string>
+
+</resources>
